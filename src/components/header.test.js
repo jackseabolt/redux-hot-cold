@@ -4,6 +4,7 @@ import {Header} from './header';
 import {shallow} from 'enzyme'; 
 import TopNav from './top-nav'; 
 
+
 describe('Header', () => {
     describe('without info modal', () => {
         it('will not display modal', () => {
